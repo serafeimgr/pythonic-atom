@@ -1,0 +1,11 @@
+linter
+linter-ui-default
+linter-pycodestyle
+minimap
+minimap-linter
+MagicPython
+python-tools
+python-yapf
+autocomplete-python
+hyperclick
+script
