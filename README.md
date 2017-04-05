@@ -1,5 +1,5 @@
 # pythonic-atom
-A collection of packages &amp; settings in order to make the most of Github's Atom Text Editor while writing python.
+A collection of packages &amp; settings in order to make the most of Github's [Atom][12] Text Editor while writing python.
 ----------
 
 Before installing any atom package mentioned below you need to run `pip install -r requirements.txt` to install the necessary python packages.
@@ -31,6 +31,7 @@ Before installing any atom package mentioned below you need to run `pip install 
   [9]: https://atom.io/packages/autocomplete-python
   [10]: https://atom.io/packages/hyperclick
   [11]: https://atom.io/packages/script
+  [12]: https://atom.io
   
 
 
