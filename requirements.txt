@@ -3,3 +3,4 @@ yapf==0.16.1
 pylint==1.6.5
 pydocstyle==1.1.1
 jedi==0.10.2
+isort==4.2.5
