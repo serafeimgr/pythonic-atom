@@ -19,6 +19,7 @@ Before installing any atom package mentioned below you need to run `pip install 
  9. [autocomplete-python][9]
  10. [hyperclick][10]
  11. [script][11]
+ 12. [python-isort][13]
 
   [1]: https://atom.io/packages/linter
   [2]: https://atom.io/packages/linter-ui-default
@@ -32,6 +33,7 @@ Before installing any atom package mentioned below you need to run `pip install 
   [10]: https://atom.io/packages/hyperclick
   [11]: https://atom.io/packages/script
   [12]: https://atom.io
+  [13]: https://atom.io/packages/python-isort
   
 
 
