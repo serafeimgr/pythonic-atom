@@ -1,0 +1,35 @@
+{
+  "name": "pythonic-atom",
+  "version": "0.1.0",
+  "description": "A meta-package to bring some pythonic features to Atom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serafeimgr/pythonic-atom"
+  },
+  "keywords": [
+    "pythonic-atom",
+    "python"
+  ],
+  "main": "./lib/pythonic-atom.coffee",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "package-deps": [
+    "linter",
+    "linter-ui-default",
+    "linter-pycodestyle",
+    "minimap",
+    "minimap-linter",
+    "MagicPython",
+    "python-tools",
+    "python-yapf",
+    "autocomplete-python",
+    "hyperclick",
+    "script",
+    "python-isort"
+  ],
+  "dependencies": {
+    "atom-package-deps": "^4.4.1"
+  }
+}
