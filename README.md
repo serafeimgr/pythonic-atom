@@ -4,6 +4,7 @@ A meta-package collection of packages &amp; settings in order to make the most o
 ----------
 
 Before installing any atom package mentioned below you need to run `pip install -r requirements.txt` to install the necessary python packages.
+Also make sure your path is configured properly. 
 
 
 ----------
@@ -39,4 +40,4 @@ Before installing any atom package mentioned below you need to run `pip install 
 
 
 ----------
-In order to install all the above packages use this one-liner `apm install --packages-file atom-packages.txt`
+If you do not want any of the above packages, uninstall it from the settings.
