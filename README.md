@@ -3,9 +3,19 @@ A meta-package collection of packages &amp; settings in order to make the most o
 
 ----------
 
-Before installing any atom package mentioned below you need to run `pip install -r requirements.txt` to install the necessary python packages.
-Also make sure your path is configured properly. 
+Before installing pythonic-atom package it's highly recommended to run `pip install -r requirements.txt` to install the necessary python packages.
 
+Also make sure your path is configured properly.
+
+
+
+Recommented Settings for Python (put this in your `config.cson`):
+
+      editor:
+        tabLength: 4
+        tabType: "soft"
+
+or by going to Settings -> Editor - > Tab Length :4 & Tab Type : soft
 
 ----------
 
