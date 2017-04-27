@@ -9,13 +9,16 @@ Also make sure your path is configured properly.
 
 
 
-Recommented Settings for Python (put this in your `config.cson`):
+Below settings are automatically applied upon package installation best suited for python development:
+
 
       editor:
         tabLength: 4
         tabType: "soft"
 
-or by going to Settings -> Editor - > Tab Length :4 & Tab Type : soft
+
+Keep in mind that it also disables `language-python` upon installation.
+This is a requirement of `MagicPython`
 
 ----------
 
