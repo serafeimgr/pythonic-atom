@@ -18,6 +18,8 @@
   "package-deps": [
     "linter",
     "linter-ui-default",
+    "intentions",
+    "busy-signal",
     "linter-pycodestyle",
     "minimap",
     "minimap-linter",

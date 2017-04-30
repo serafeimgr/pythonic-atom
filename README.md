@@ -15,6 +15,7 @@ Below settings are automatically applied upon package installation best suited f
       editor:
         tabLength: 4
         tabType: "soft"
+        showIndentGuide: true
 
 
 Keep in mind that it also disables `language-python` upon installation.

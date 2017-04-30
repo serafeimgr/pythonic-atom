@@ -7,8 +7,9 @@ module.exports =
         atom.config.set("core.disabledPackages", disabledPackages)
     else
         atom.config.set("core.disabledPackages", ["language-python"])
+    atom.config.set("editor.showIndentGuide", true)
     atom.config.set("editor.tabLength", 4)
     atom.config.set("editor.tabType", "soft")
     require('atom-package-deps').install(meta.name)
-    atom.notifications.addInfo("Disabled language-python")
-    atom.notifications.addInfo("Please Restart Atom.")
+    .then ()->
+        atom.notifications.addSuccess("Pythonic-Atom : Packages Installed.")
