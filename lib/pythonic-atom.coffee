@@ -12,4 +12,6 @@ module.exports =
     atom.config.set("editor.tabType", "soft")
     require('atom-package-deps').install(meta.name)
     .then ()->
-        atom.notifications.addSuccess("Pythonic-Atom : Packages Installed.")
+        if not atom.config.get("pythonic-atom")
+            atom.notifications.addSuccess("Pythonic-Atom : Packages Installed.")
+            atom.config.set("pythonic-atom", 1)
