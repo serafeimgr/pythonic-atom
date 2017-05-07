@@ -7,9 +7,13 @@ A meta-package collection of packages &amp; settings in order to make the most o
 
 ----------
 
-Before installing pythonic-atom package it's highly recommended to run `pip install -r requirements.txt` to install the necessary python packages.
+Installs these necessary python packages below.
+Make sure you have `pip` installed and your path configured properly
 
-Also make sure your path is configured properly.
+      pycodestyle
+      yapf
+      jedi
+      isort
 
 
 
@@ -20,6 +24,7 @@ Below settings are automatically applied upon package installation best suited f
         tabLength: 4
         tabType: "soft"
         showIndentGuide: true
+        showInvisibles: true
 
 
 Keep in mind that it also disables `language-python` upon installation.
