@@ -3,7 +3,7 @@ language: generic
 
 env:
   global:
-    - APM_TEST_PACKAGES="pythonic-atom"
+    - APM_TEST_PACKAGES="pythonic-atom linter linter-ui-default intentions busy-signal linter-pycodestyle minimap minimap-linter MagicPython python-tools python-yapf autocomplete-python hyperclick script python-isort"
     - ATOM_LINT_WITH_BUNDLED_NODE="true"
 
   matrix:
