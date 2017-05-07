@@ -2,6 +2,7 @@
 
 [![apm](https://img.shields.io/apm/l/pythonic-atom.svg?style=flat-square)](https://atom.io/packages/pythonic-atom)
 [![apm](https://img.shields.io/apm/dm/pythonic-atom.svg?style=flat-square)](https://atom.io/packages/pythonic-atom)
+[![Travis](https://travis-ci.org/serafeimgr/pythonic-atom.svg?branch=master)](https://atom.io/packages/pythonic-atom)
 
 A meta-package collection of packages &amp; settings in order to make the most of Github's [Atom][12] Text Editor while writing python.
 
