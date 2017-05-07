@@ -3,6 +3,7 @@
     expect(atom.packages.isPackageLoaded('pythonic-atom')).toBe false
     atom.packages.activatePackage('pythonic-atom').then ->
       expect(atom.packages.isPackageLoaded('pythonic-atom')).toBe true
+      expect(atom.packages.isPackageActive('pythonic-atom')).toBe true
       invisibles = atom.config.get("editor.showInvisibles")
       indentGuide = atom.config.get("editor.showIndentGuide")
       result = invisibles && indentGuide
@@ -21,5 +22,6 @@
     atom.packages.activatePackage('language-python')
     atom.packages.activatePackage('pythonic-atom').then ->
       expect(atom.packages.isPackageLoaded('pythonic-atom')).toBe true
+      expect(atom.packages.isPackageActive('pythonic-atom')).toBe true
       expect(atom.packages.isPackageActive('language-python')).toBe false
       expect(atom.config.get("pythonic-atom")).toBe 1
