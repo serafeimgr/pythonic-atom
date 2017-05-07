@@ -44,3 +44,4 @@ addons:
     - libgnome-keyring-dev
     - libsecret-1-dev
     - fakeroot
+    - python-pip
