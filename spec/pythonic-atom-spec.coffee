@@ -8,7 +8,7 @@
       indentGuide = atom.config.get("editor.showIndentGuide")
       result = invisibles && indentGuide
 
-      length = atom.config.get("editor.editor.tabLength")
+      length = atom.config.get("editor.tabLength")
       tabs = atom.config.get("editor.tabType")
 
       expect(result).toBe true
