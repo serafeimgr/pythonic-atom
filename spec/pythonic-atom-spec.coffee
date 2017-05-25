@@ -12,6 +12,4 @@
       expect(result).toBe true
       expect(length).toBe 4
       expect(tabs).toBe "soft"
-      expect(atom.packages.isPackageActive('language-python')).toBe false
-      expect(atom.config.get("pythonic-atom")).toBe 1
-      
+      expect(atom.packages.isPackageActive('language-python')).toBe false      
