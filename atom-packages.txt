@@ -9,4 +9,4 @@ python-yapf
 autocomplete-python
 hyperclick
 script
-python-isort
+atom-isort

@@ -29,7 +29,7 @@
     "autocomplete-python",
     "hyperclick",
     "script",
-    "python-isort"
+    "atom-isort"
   ],
   "dependencies": {
     "atom-package-deps": "^4.4.1"
