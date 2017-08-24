@@ -1,6 +1,6 @@
 {
   "name": "pythonic-atom",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "A meta-package to bring some pythonic features to Atom",
   "license": "MIT",
   "repository": {
