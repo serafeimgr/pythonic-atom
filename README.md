@@ -18,15 +18,6 @@ Make sure you have `pip` installed and your path configured properly
 
 
 
-Below settings are automatically applied upon package installation best suited for python development:
-
-
-      editor:
-        tabLength: 4
-        tabType: "soft"
-        showIndentGuide: true
-        showInvisibles: true
-
 
 Keep in mind that it also disables `language-python` upon installation.
 This is a requirement of `MagicPython`
