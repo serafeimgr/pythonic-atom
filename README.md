@@ -42,7 +42,7 @@ This is a requirement of `MagicPython`
  6. [MagicPython][6]
  7. [python-tools][7]
  8. [python-yapf][8]
- 9. [autocomplete-python][9]
+ 9. [autocomplete-python-jedi][9]
  10. [hyperclick][10]
  11. [script][11]
  12. [atom-isort][13]
@@ -55,7 +55,7 @@ This is a requirement of `MagicPython`
   [6]: https://atom.io/packages/MagicPython
   [7]: https://atom.io/packages/python-tools
   [8]: https://atom.io/packages/python-yapf
-  [9]: https://atom.io/packages/autocomplete-python
+  [9]: https://atom.io/packages/autocomplete-python-jedi
   [10]: https://atom.io/packages/hyperclick
   [11]: https://atom.io/packages/script
   [12]: https://atom.io
