@@ -15,6 +15,7 @@ Make sure you have `pip` installed and your path configured properly
       yapf
       jedi
       isort
+      jupyter
 
 
 
