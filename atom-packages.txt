@@ -6,7 +6,7 @@ minimap-linter
 MagicPython
 python-tools
 python-yapf
-autocomplete-python
+autocomplete-python-jedi
 hyperclick
 script
 atom-isort

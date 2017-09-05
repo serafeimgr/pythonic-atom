@@ -29,7 +29,8 @@
     "autocomplete-python-jedi",
     "hyperclick",
     "script",
-    "atom-isort"
+    "atom-isort",
+    "hydrogen"
   ],
   "dependencies": {
     "atom-package-deps": "^4.4.1"

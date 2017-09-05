@@ -37,6 +37,7 @@ This is a requirement of `MagicPython`
  10. [hyperclick][10]
  11. [script][11]
  12. [atom-isort][13]
+ 13. [hydrogen][14]
 
   [1]: https://atom.io/packages/linter
   [2]: https://atom.io/packages/linter-ui-default
@@ -51,6 +52,7 @@ This is a requirement of `MagicPython`
   [11]: https://atom.io/packages/script
   [12]: https://atom.io
   [13]: https://atom.io/packages/atom-isort
+  [14]: https://atom.io/packages/hydrogen
 
 
 
